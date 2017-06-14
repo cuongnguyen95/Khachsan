@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:stretchColumns="*"
+    >
+    <TextView
+        android:text="Tìm kiếm khách sạn"
+        android:height="50dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#59df65"
+        android:gravity="center"
+        android:textSize="25dp"/>
+    <TableRow android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Địa Chỉ"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/diachiks"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            />
+
+    </TableRow >
+    <TableRow android:layout_marginTop="15dp">
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Nhận phòng"/>
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/nhanphong"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+
+
+
+            />
+    </TableRow>
+    <TableRow android:layout_marginTop="15dp">
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Trả phòng"/>
+
+        <EditText
+            android:id="@+id/traphong"
+            android:inputType="number"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            />
+    </TableRow>
+    <TableRow android:layout_marginTop="15dp">
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Số phòng"/>
+
+        <Spinner
+            android:id="@+id/sophong"
+            android:entries="@array/sophong"
+            android:inputType="number"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+
+
+            />
+    </TableRow>
+
+    <Button
+        android:id="@+id/timkiem"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:textColor="#ffffff"
+        android:background="#59df65"
+        android:text="Tìm kiếm"/>
+
+
+</TableLayout>

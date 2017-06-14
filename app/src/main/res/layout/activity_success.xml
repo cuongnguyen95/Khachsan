@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:stretchColumns="*"
+    >
+    <TextView
+        android:text="Đặt Phòng Thành Công"
+        android:height="50dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#59df65"
+        android:gravity="center"
+        android:textSize="25dp"/>
+    <TableRow>
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Tên khách sạn"/>
+
+        <TextView
+            android:id="@+id/tenkhachsan"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="123123"
+
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Địa chỉ"/>
+
+        <TextView
+            android:id="@+id/diachi"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="123123"
+
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Tên khách hàng"/>
+
+        <TextView
+            android:id="@+id/tenkhachhang"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="123123"
+
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Số điện thoại"/>
+
+        <TextView
+            android:id="@+id/sdt"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="123123"
+
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Số phòng thuê" />
+
+        <TextView
+            android:id="@+id/sophongthue"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="123123"
+
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Giá phòng"/>
+
+        <TextView
+            android:id="@+id/giaphong"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="123123"
+
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Số ngày"/>
+
+        <TextView
+            android:id="@+id/songaythue"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="123123"
+
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Tổng tiền"/>
+
+        <TextView
+            android:id="@+id/tongtien"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="123123"
+
+            />
+    </TableRow>
+
+</TableLayout>
+

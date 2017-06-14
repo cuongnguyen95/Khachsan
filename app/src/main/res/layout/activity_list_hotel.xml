@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/khuvuc"
+            android:layout_marginLeft="15dp"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="#ccc"
+            android:text="Khu vực : "/>
+
+        <Button
+            android:id="@+id/tkchitiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#4890de"
+            android:text="Tìm kiếm"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listHotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+
+
+
+
+</LinearLayout>
