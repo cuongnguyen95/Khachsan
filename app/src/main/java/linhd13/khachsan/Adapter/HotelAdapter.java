@@ -40,8 +40,8 @@ public class HotelAdapter extends ArrayAdapter<KhachSan> {
     }
 
     private class ViewHolder{
-        ImageView imgHinh , imgSao ;
-        TextView txtTen , txtDiaChi , txtSdt , txtGia , txtPhong ;
+        private ImageView imgHinh , imgSao ;
+        private TextView txtTen , txtDiaChi , txtSdt , txtGia , txtPhong ;
     }
 
     @Override
