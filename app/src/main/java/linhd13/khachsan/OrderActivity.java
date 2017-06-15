@@ -81,7 +81,7 @@ public class OrderActivity extends AppCompatActivity {
 
                     RequestQueue requestQueue1 = Volley.newRequestQueue(OrderActivity.this);
 
-                    String url = "http://www.hostlinh386.somee.com/api/datphong?idks=" + bundle.getLong("Id_khachSan") + "&sdt=" + edtSdt.getText().toString() + "&ngayvao=" + ngayvao + "&ngayra=" + ngayra + "&sophong=" + sophong + "&tenkh=" + name;
+                    String url = "http://webservicelinh.somee.com/api/datphong?idks=" + bundle.getLong("Id_khachSan") + "&sdt=" + edtSdt.getText().toString() + "&ngayvao=" + ngayvao + "&ngayra=" + ngayra + "&sophong=" + sophong + "&tenkh=" + name;
                     StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
                         @Override
                         public void onResponse(String response) {
