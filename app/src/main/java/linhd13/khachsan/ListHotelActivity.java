@@ -63,7 +63,7 @@ public class ListHotelActivity extends AppCompatActivity {
             songay = bundle1.getLong("songay");
 
             khuvuc.setText("Khu vực : " + khuvuc1 );
-            url = "http://www.hostlinh386.somee.com/api/Khachsan?sao=3&tu=1&den=2000000&diachi=" + diachi;
+            url = "http://webservicelinh.somee.com/api/khachsan?sao=0&tu=1&den=2000000&diachi=" + diachi;
         }
         if (intent2.getBundleExtra("timkiemchitiet") != null) {
             bundle1 = intent2.getBundleExtra("timkiemchitiet");
@@ -78,7 +78,7 @@ public class ListHotelActivity extends AppCompatActivity {
             den = bundle1.getString("giaden");
 
             khuvuc.setText("Khu vực : " + khuvuc1 );
-            url = "http://www.hostlinh386.somee.com/api/Khachsan?sao=" + sao + "&tu=" + tu + "&den=" + den + "&diachi=" + diachi;
+            url = "http://webservicelinh.somee.com/api/khachsan?sao=" + sao + "&tu=" + tu + "&den=" + den + "&diachi=" + diachi;
 
         }
 
