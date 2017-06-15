@@ -19,15 +19,15 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.squareup.picasso.Picasso;
 
 public class DetailHotelActivity extends AppCompatActivity implements OnMapReadyCallback {
-    GoogleMap map;
-    MapFragment mapFragment;
-    Context context;
-    ImageButton imgSwich;
-    Button btn1, btnDK;
-    TextView txtTenKS, txtDiaChiKS, txtSdtKS, txtGiaKS;
-    Bundle bundle , bundle1 ;
-    String nhanphong , traphong ,sophong ;
-    Long  songay ;
+    private GoogleMap map;
+    private MapFragment mapFragment;
+    private Context context;
+    private ImageButton imgSwich;
+    private Button btn1, btnDK;
+    private TextView txtTenKS, txtDiaChiKS, txtSdtKS, txtGiaKS;
+    private Bundle bundle , bundle1 ;
+    private String nhanphong , traphong ,sophong ;
+    private Long  songay ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

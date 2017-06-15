@@ -28,15 +28,15 @@ import linhd13.khachsan.Model.KhachSan;
 
 
 public class ListHotelActivity extends AppCompatActivity {
-    ListView lvKhachSan;
-    TextView khuvuc;
-    Button tkchitiet;
-    ArrayList<KhachSan> listKhachSan;
-    HotelAdapter hotelAdapter;
-    String nhanphong, traphong, sophong, diachi , khuvuc1 , sao, tu, den , url;
-    Long songay;
-    Bundle bundle1 ;
-    Intent intent2;
+    private ListView lvKhachSan;
+    private TextView khuvuc;
+    private Button tkchitiet;
+    private ArrayList<KhachSan> listKhachSan;
+    private HotelAdapter hotelAdapter;
+    private String nhanphong, traphong, sophong, diachi , khuvuc1 , sao, tu, den , url;
+    private Long songay;
+    private Bundle bundle1 ;
+    private Intent intent2;
 
 
     @Override

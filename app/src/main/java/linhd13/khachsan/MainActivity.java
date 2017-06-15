@@ -23,14 +23,14 @@ import java.util.TimeZone;
 import linhd13.khachsan.Model.Tinh;
 
 public class MainActivity extends AppCompatActivity {
-    Spinner spinnerSophong;
-    AutoCompleteTextView autoDiachiks;
-    EditText edtNhanphong, edtTraphong;
-    Button btnTimkiem;
-    long ngayvao1, ngayra1, songay;
-    ArrayList<Tinh> listTinh;
+    private Spinner spinnerSophong;
+    private AutoCompleteTextView autoDiachiks;
+    private EditText edtNhanphong, edtTraphong;
+    private Button btnTimkiem;
+    private long ngayvao1, ngayra1, songay;
+    private ArrayList<Tinh> listTinh;
     Tinh tinh;
-    String matinh;
+    private String matinh;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

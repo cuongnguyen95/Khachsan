@@ -9,11 +9,11 @@ import android.widget.EditText;
 import android.widget.Spinner;
 
 public class SeachActivity extends AppCompatActivity {
-    EditText giatu , giaden  ;
-    Spinner sosao ;
-    Button timkiem ;
-    String diachi , khuvuc , nhanphong , traphong , sophong ;
-    Long songay ;
+    private EditText giatu , giaden  ;
+    private Spinner sosao ;
+    private Button timkiem ;
+    private String diachi , khuvuc , nhanphong , traphong , sophong ;
+    private Long songay ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

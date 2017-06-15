@@ -16,10 +16,10 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
 public class OrderActivity extends AppCompatActivity {
-    EditText edtName, edtSdt ;
-    Button btnSubmitForm;
-    Bundle bundle;
-    String id;
+    private EditText edtName, edtSdt ;
+    private Button btnSubmitForm;
+    private Bundle bundle;
+    private String  id;
 
 
     @Override
