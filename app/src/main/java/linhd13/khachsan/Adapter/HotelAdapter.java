@@ -36,7 +36,6 @@ public class HotelAdapter extends ArrayAdapter<KhachSan> {
         this.context = context;
         this.resource = resource;
         this.items = items;
-
     }
 
     private class ViewHolder{
