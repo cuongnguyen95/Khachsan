@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 public class SuccessActivity extends AppCompatActivity {
-    TextView txtTenkhachsan , txtDiachi , txtTenkhachhang ,txtSdt ,txtSongaythue ,txtGiaphong , txtTongtien , txtSophongthue;
+    private TextView txtTenkhachsan , txtDiachi , txtTenkhachhang ,txtSdt ,txtSongaythue ,txtGiaphong , txtTongtien , txtSophongthue;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
